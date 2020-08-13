@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
+import Main from "./components/content/Main";
 
 
 class App extends Component {
     render() {
-        return <div>Hello world</div>;
+        return <Main/>
     }
 }
 
