@@ -1,0 +1,27 @@
+/*_________common colors___________________*/
+$icon-color:#C9CFE3;
+$active-color:#213991;
+$common-text:#7D7D7D;
+$bg-color:#f0f1f8;
+$modal-wrap-bg: rgba(0,0,0,.5);
+
+
+
+
+
+/*__________@extend______________*/
+
+%commonFontStyle {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+%smallModalBoxShadow{
+box-shadow:0 0 11px 2px rgba(0,0,0,.3);
+}
+%downModalBoxShadow{
+  box-shadow:0 4px 20px rgba(0, 0, 0, 0.06);
+}
+%downModalBoxShadow{
+  box-shadow:0 4px 20px rgba(0, 0, 0, 0.06);
+}
